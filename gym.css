@@ -1,0 +1,94 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  nav ul {
+    float: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #cc5500;
+  }
+  
+  /* About Section Styles */
+  #about {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #about img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
